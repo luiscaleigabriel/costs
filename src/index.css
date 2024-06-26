@@ -11,5 +11,21 @@ html,
 body,
 #root {
   height: 100%;
+  font-size: 65.5%;
   background-color: #efefef;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a, 
+p {
+  color: inherit;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2.3rem;
 }

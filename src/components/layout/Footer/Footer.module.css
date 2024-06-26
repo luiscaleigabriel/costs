@@ -1,0 +1,29 @@
+.footer {
+  width: 100%;
+  padding: 2rem;
+  color: #fff;
+  background-color: #222;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 1.5rem;
+  padding-block: 1rem;
+}
+
+.footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer ul li  a{
+  padding-inline: 1rem;
+  font-size: 2rem;
+  transition: all .5s ease;
+}
+
+.footer ul li  a:hover,
+.footer p > span {
+  color: #ffbb33;
+}
