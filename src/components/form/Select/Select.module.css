@@ -1,0 +1,21 @@
+.form_control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+.form_control label {
+  margin-top: .8rem;
+  font-weight: bold;
+}
+
+.form_control select {
+  padding: .6rem;
+  border-radius: 0;
+  border: none;
+}
+
+.form_control select:focus {
+  outline-color: #d7d7d7;
+}
