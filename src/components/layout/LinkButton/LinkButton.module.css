@@ -1,0 +1,20 @@
+.btn {
+  color: #fff;
+  background-color: #222;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all .5s ease-in-out;
+}
+
+.btn:hover {
+  color: #ffbb33;
+}
+
+.btn.effect {
+  box-shadow: 6px 6px #ccc;
+}
+
+.btn.effect:hover {
+  transform: translate(4px, 4px);
+  box-shadow: 4px 4px #ccc;
+}
