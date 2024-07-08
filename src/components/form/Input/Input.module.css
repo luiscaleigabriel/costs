@@ -26,15 +26,3 @@
   font-size: 1.4rem;
 }
 
-.form_control input[type="submit"] {
-  color: #fff;
-  cursor: pointer;
-  border: none;
-  padding: 10px 20px;
-  background-color: #222;
-  transition: all .5s ease-in-out;
-}
-
-.form_control input[type="submit"]:hover {
-  color: #ffbb22;
-}

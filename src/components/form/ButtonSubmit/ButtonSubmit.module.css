@@ -1,0 +1,12 @@
+.submit {
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  background-color: #222;
+  transition: all .5s ease-in-out;
+}
+
+.submit:hover {
+  color: #ffbb22;
+}

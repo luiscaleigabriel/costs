@@ -6,7 +6,7 @@ function NewProject() {
     <section className={styles.newproject_containner}>
       <h1>Criar Projecto</h1>
       <p>Crie seu projecto para depois adicionar os serviços</p>
-      <Form />
+      <Form textButton='Criar Projecto' />
     </section>
   )
 }

@@ -1,6 +1,6 @@
 import styles from './Select.module.css'
 
-function Select({ name, text, options, handleonChange, value }) {
+function Select({ name, text, options, handleonChange }) {
   return (
     <div className={ styles.form_control }>
       <label htmlFor={ name }>
@@ -9,7 +9,10 @@ function Select({ name, text, options, handleonChange, value }) {
       <select 
         name={name}
         id={name}>
-          <option disabled selected>Selecione uma opção</option>
+          <option disabled>Selecione uma opção</option>
+          {options.map((option) => (
+            <option value={option.id} key={option.id} >{option.name}</option>
+          ))}
       </select>
     </div>
   )

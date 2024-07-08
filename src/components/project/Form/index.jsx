@@ -1,8 +1,26 @@
+import { useEffect, useState } from 'react'
+
 import Input from '../../form/Input'
 import Select from '../../form/Select'
-import styles from './Form.module.css'
+import ButtonSubmit from '../../form/ButtonSubmit'
 
-function Form() {
+function Form({ textButton }) {
+  const [categories, setCategories] = useState([])
+  
+  useEffect(() => {
+    fetch("http://localhost:5000/categories", {
+      method: "GET",
+      headers: {
+        'content-Type': 'application/json'
+      }
+    })
+    .then((resp) => resp.json())
+    .then((data) => {
+      setCategories(data)
+    })
+    .catch((err) => console.log(err))
+  }, [])
+
   return (
     <form>
       <Input
@@ -20,13 +38,9 @@ function Form() {
       <Select
         text="Selecione a categoria"
         name="category_id"
-        value="Criar projecto"
+        options={categories}
       />
-      <Input
-        name="btn"
-        type="submit"
-        value="Criar projecto"
-      />
+      <ButtonSubmit text={textButton} />
     </form>
   )
 }
