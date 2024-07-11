@@ -1,7 +1,11 @@
+import { useHistory } from 'react-router-dom'
 import Form from '../../project/Form'
 import styles from  './NewProject.module.css'
 
-function NewProject() {
+function NewProject() {~
+
+  const history = useHistory();
+
   return (
     <section className={styles.newproject_containner}>
       <h1>Criar Projecto</h1>
