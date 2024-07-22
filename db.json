@@ -1,20 +1,70 @@
 {
-  "projects": [],
+  "projects": [
+    {
+      "id": "8b09",
+      "costs": 0,
+      "services": []
+    },
+    {
+      "id": "b170",
+      "name": "Manuel Fonseca",
+      "budget": "1234",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "costs": 0,
+      "services": []
+    },
+    {
+      "id": "670e",
+      "name": "Manuel Fonseca",
+      "budget": "1234",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "costs": 0,
+      "services": []
+    },
+    {
+      "id": "1b31",
+      "name": "Manuel Fonseca",
+      "budget": "1234",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "costs": 0,
+      "services": []
+    },
+    {
+      "id": "6cd0",
+      "name": "Projecto de teste",
+      "budget": "5000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "costs": 0,
+      "services": []
+    }
+  ],
   "categories": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Infra"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Desenvolvimento"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Design"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Planejamento"
     }
   ]
